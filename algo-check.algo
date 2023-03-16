@@ -1,0 +1,21 @@
+ALGORITHM algo-check
+VAR
+    $n1, $n2, $n3: INTEGER;
+    $n1:="word"; $n2:="character"; $n3:="vowel";
+    sum1("word"):=i+$n1; i:integer:=0;
+    sum2("chara"):=j+$n2; j:integer:=0;
+    sum3("vowel"):=k+$n3; k:integer:=0
+    counters:=i:=j:=k:=0;
+
+BEGIN
+    Read: I am a student of Gomycode;.
+    Read: The number of words in the sentence;.
+    Read: The number of characters in the sentence;.
+    Read: The number of vowels in the sentence;.
+    sum1:=i+$n1;
+    sum2:=j+$n2;
+    sum3:=k+$n3;
+    write(sum1);
+    write(sum2);
+    write(sum3);
+END
